@@ -1,0 +1,304 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.ejemplo:backend-quarkus >---------------------
+[INFO] Building backend-quarkus 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- quarkus:3.8.3:dev (default-cli) @ backend-quarkus ---
+[INFO] Invoking resources:3.3.1:resources (default-resources) @ backend-quarkus
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Invoking quarkus:3.8.3:generate-code (default) @ backend-quarkus
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-hibernate-orm-panache//quarkus-hibernate-orm-panache-.pom
+[INFO] Invoking compiler:3.13.0:compile (default-compile) @ backend-quarkus
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] Invoking resources:3.3.1:testResources (default-testResources) @ backend-quarkus
+[INFO] skip non existing resourceDirectory /workspaces/fullstack/backend-quarkus/src/test/resources
+[INFO] Invoking quarkus:3.8.3:generate-code-tests (default) @ backend-quarkus
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-hibernate-orm-panache//quarkus-hibernate-orm-panache-.pom
+[INFO] Invoking compiler:3.13.0:testCompile (default-testCompile) @ backend-quarkus
+[INFO] No sources to compile
+
+----------------------------
+--- Help improve Quarkus ---
+----------------------------
+* Learn more: https://quarkus.io/usage/
+* Do you agree to contribute anonymous build time data to the Quarkus community? (y/n and enter) 
+[WARNING] Failed to collect user input for analytics
+java.util.NoSuchElementException: No line found
+    at java.util.Scanner.nextLine (Scanner.java:1660)
+    at io.quarkus.maven.DevMojo.lambda$execute$0 (DevMojo.java:439)
+    at io.quarkus.analytics.ConfigService.lambda$userAcceptance$0 (ConfigService.java:79)
+    at java.util.concurrent.CompletableFuture$AsyncSupply.run (CompletableFuture.java:1768)
+    at java.lang.Thread.run (Thread.java:1583)
+[info] [Quarkus build analytics] Didn't receive a valid user's answer: `y` or `n`. The question will be asked again next time.
+
+Listening for transport dt_socket at address: 5005
+Press [e] to edit command line args (currently ''), [h] for more options>
+2026-09-25 16:33:15,800 INFO  [io.qua.dep.dev.IsolatedDevModeMain] (main) Attempting to start live reload endpoint to recover from previous Quarkus startup failure
+2026-09-25 16:33:16,254 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (main) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.createInitialRuntimeApplication(AugmentActionImpl.java:251)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.createInitialRuntimeApplication(AugmentActionImpl.java:60)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.firstStart(IsolatedDevModeMain.java:112)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.accept(IsolatedDevModeMain.java:433)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.accept(IsolatedDevModeMain.java:55)
+	at io.quarkus.bootstrap.app.CuratedApplication.runInCl(CuratedApplication.java:138)
+	at io.quarkus.bootstrap.app.CuratedApplication.runInAugmentClassLoader(CuratedApplication.java:93)
+	at io.quarkus.deployment.dev.DevModeMain.start(DevModeMain.java:131)
+	at io.quarkus.deployment.dev.DevModeMain.main(DevModeMain.java:62)
+Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.builder.Execution.run(Execution.java:123)
+	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
+	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
+	... 9 more
+Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+2026-09-25 16:35:16,597 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (vert.x-worker-thread-2) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:264)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:60)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartApp(IsolatedDevModeMain.java:190)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartCallback(IsolatedDevModeMain.java:173)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:541)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:441)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:150)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:137)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$0(ContextImpl.java:177)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
+	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:209)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1512)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.builder.Execution.run(Execution.java:123)
+	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
+	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
+	... 18 more
+Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+2026-09-25 16:35:16,610 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload total time: 0.282s 
+2026-09-25 16:35:44,400 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (vert.x-worker-thread-1) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:264)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:60)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartApp(IsolatedDevModeMain.java:190)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartCallback(IsolatedDevModeMain.java:173)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:541)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:441)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:150)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:137)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$0(ContextImpl.java:177)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
+	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:209)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.builder.Execution.run(Execution.java:123)
+	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
+	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
+	... 18 more
+Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+2026-09-25 16:35:44,408 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 0.306s 
+2026-09-25 16:36:06,615 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (vert.x-worker-thread-2) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:264)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:60)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartApp(IsolatedDevModeMain.java:190)
+	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartCallback(IsolatedDevModeMain.java:173)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:541)
+	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:441)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:150)
+	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:137)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$0(ContextImpl.java:177)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
+	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:209)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
+	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+	at io.quarkus.builder.Execution.run(Execution.java:123)
+	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
+	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
+	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
+	... 18 more
+Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
+	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
+	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
+	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
+	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+
+2026-09-25 16:36:06,623 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload total time: 0.140s 

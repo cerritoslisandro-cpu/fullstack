@@ -2,7 +2,7 @@ import api from '../api/axios';
 
 export interface LoginCredentials {
     username: string;
-    password?: string;
+    password: string;
 }
 
 export interface AuthResponse {

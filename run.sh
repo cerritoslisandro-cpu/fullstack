@@ -10,7 +10,7 @@ cd /workspaces/fullstack/backend-quarkus
 mvn quarkus:dev > ../quarkus.log 2>&1 &
 
 # 3. Esperar un par de segundos para que Quarkus prepare el proceso
-sleep 3
+sleep 8
 
 # 4. Iniciar Frontend Vue/Vite en primer plano para ver sus logs en la consola
 echo "Iniciando Frontend (Vue/Vite)..."

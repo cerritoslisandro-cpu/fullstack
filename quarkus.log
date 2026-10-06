@@ -4,12 +4,38 @@
 [INFO] Building backend-quarkus 1.0.0-SNAPSHOT
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2/3.8.3/quarkus-jdbc-h2-3.8.3.pom
+Progress (1): 1.5 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2/3.8.3/quarkus-jdbc-h2-3.8.3.pom (2.6 kB at 1.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-parent/3.8.3/quarkus-jdbc-h2-parent-3.8.3.pom
+Progress (1): 685 B                   Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-parent/3.8.3/quarkus-jdbc-h2-parent-3.8.3.pom (685 B at 9.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.pom (1.1 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.17.0/jts-core-1.17.0.pom
+Progress (1): 1.9 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.17.0/jts-core-1.17.0.pom (2.4 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-modules/1.17.0/jts-modules-1.17.0.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-modules/1.17.0/jts-modules-1.17.0.pom (1.3 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts/1.17.0/jts-1.17.0.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kBProgress (1): 4.9 kBProgress (1): 8.0 kBProgress (1): 11 kB Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts/1.17.0/jts-1.17.0.pom (11 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2/3.8.3/quarkus-jdbc-h2-3.8.3.jar
+Progress (1): 0.9/11 kBProgress (1): 2.3/11 kBProgress (1): 3.6/11 kBProgress (1): 5.0/11 kBProgress (1): 6.4/11 kBProgress (1): 7.7/11 kBProgress (1): 9.1/11 kBProgress (1): 10/11 kB Progress (1): 11 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2/3.8.3/quarkus-jdbc-h2-3.8.3.jar (11 kB at 137 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.17.0/jts-core-1.17.0.jar
+Progress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (1): 0.1/2.6 MBProgress (2): 0.1/2.6 MB | 0.9/888 kBProgress (2): 0.1/2.6 MB | 2.3/888 kBProgress (2): 0.1/2.6 MB | 2.3/888 kBProgress (2): 0.1/2.6 MB | 2.3/888 kBProgress (2): 0.1/2.6 MB | 2.3/888 kBProgress (2): 0.1/2.6 MB | 3.6/888 kBProgress (2): 0.1/2.6 MB | 5.0/888 kBProgress (2): 0.1/2.6 MB | 6.4/888 kBProgress (2): 0.1/2.6 MB | 7.7/888 kBProgress (2): 0.1/2.6 MB | 9.1/888 kBProgress (2): 0.1/2.6 MB | 10/888 kB Progress (2): 0.1/2.6 MB | 12/888 kBProgress (2): 0.1/2.6 MB | 13/888 kBProgress (2): 0.1/2.6 MB | 13/888 kBProgress (2): 0.1/2.6 MB | 13/888 kBProgress (2): 0.1/2.6 MB | 13/888 kBProgress (2): 0.1/2.6 MB | 15/888 kBProgress (2): 0.1/2.6 MB | 16/888 kBProgress (2): 0.1/2.6 MB | 17/888 kBProgress (2): 0.1/2.6 MB | 19/888 kBProgress (2): 0.1/2.6 MB | 20/888 kBProgress (2): 0.1/2.6 MB | 21/888 kBProgress (2): 0.1/2.6 MB | 21/888 kBProgress (2): 0.2/2.6 MB | 21/888 kBProgress (2): 0.2/2.6 MB | 21/888 kBProgress (2): 0.2/2.6 MB | 23/888 kBProgress (2): 0.2/2.6 MB | 24/888 kBProgress (2): 0.2/2.6 MB | 26/888 kBProgress (2): 0.2/2.6 MB | 27/888 kBProgress (2): 0.2/2.6 MB | 28/888 kBProgress (2): 0.2/2.6 MB | 30/888 kBProgress (2): 0.2/2.6 MB | 31/888 kBProgress (2): 0.2/2.6 MB | 32/888 kBProgress (2): 0.2/2.6 MB | 32/888 kBProgress (2): 0.2/2.6 MB | 32/888 kBProgress (2): 0.2/2.6 MB | 32/888 kBProgress (2): 0.2/2.6 MB | 34/888 kBProgress (2): 0.2/2.6 MB | 35/888 kBProgress (2): 0.2/2.6 MB | 36/888 kBProgress (2): 0.2/2.6 MB | 38/888 kBProgress (2): 0.2/2.6 MB | 39/888 kBProgress (2): 0.2/2.6 MB | 41/888 kBProgress (2): 0.2/2.6 MB | 42/888 kBProgress (2): 0.2/2.6 MB | 42/888 kBProgress (2): 0.2/2.6 MB | 42/888 kBProgress (2): 0.2/2.6 MB | 42/888 kBProgress (2): 0.2/2.6 MB | 42/888 kBProgress (2): 0.2/2.6 MB | 43/888 kBProgress (2): 0.2/2.6 MB | 45/888 kBProgress (2): 0.2/2.6 MB | 46/888 kBProgress (2): 0.2/2.6 MB | 47/888 kBProgress (2): 0.2/2.6 MB | 49/888 kBProgress (2): 0.2/2.6 MB | 50/888 kBProgress (2): 0.2/2.6 MB | 52/888 kBProgress (2): 0.2/2.6 MB | 52/888 kBProgress (2): 0.2/2.6 MB | 53/888 kBProgress (2): 0.2/2.6 MB | 54/888 kBProgress (2): 0.2/2.6 MB | 56/888 kBProgress (2): 0.2/2.6 MB | 57/888 kBProgress (2): 0.2/2.6 MB | 61/888 kBProgress (2): 0.2/2.6 MB | 61/888 kBProgress (2): 0.2/2.6 MB | 65/888 kBProgress (2): 0.2/2.6 MB | 70/888 kBProgress (2): 0.2/2.6 MB | 74/888 kBProgress (2): 0.2/2.6 MB | 78/888 kBProgress (2): 0.2/2.6 MB | 78/888 kBProgress (2): 0.2/2.6 MB | 78/888 kBProgress (2): 0.2/2.6 MB | 82/888 kBProgress (2): 0.2/2.6 MB | 86/888 kBProgress (2): 0.2/2.6 MB | 91/888 kBProgress (2): 0.2/2.6 MB | 91/888 kBProgress (2): 0.2/2.6 MB | 95/888 kBProgress (2): 0.2/2.6 MB | 99/888 kBProgress (2): 0.2/2.6 MB | 103/888 kBProgress (2): 0.3/2.6 MB | 103/888 kBProgress (2): 0.3/2.6 MB | 103/888 kBProgress (2): 0.3/2.6 MB | 108/888 kBProgress (2): 0.3/2.6 MB | 112/888 kBProgress (2): 0.3/2.6 MB | 112/888 kBProgress (2): 0.3/2.6 MB | 116/888 kBProgress (2): 0.3/2.6 MB | 120/888 kBProgress (2): 0.3/2.6 MB | 125/888 kBProgress (2): 0.3/2.6 MB | 125/888 kBProgress (2): 0.3/2.6 MB | 129/888 kBProgress (2): 0.3/2.6 MB | 133/888 kBProgress (2): 0.3/2.6 MB | 137/888 kBProgress (2): 0.3/2.6 MB | 141/888 kBProgress (2): 0.3/2.6 MB | 141/888 kBProgress (2): 0.3/2.6 MB | 146/888 kBProgress (2): 0.3/2.6 MB | 150/888 kBProgress (2): 0.3/2.6 MB | 150/888 kBProgress (2): 0.3/2.6 MB | 154/888 kBProgress (2): 0.3/2.6 MB | 158/888 kBProgress (2): 0.3/2.6 MB | 163/888 kBProgress (2): 0.3/2.6 MB | 167/888 kBProgress (2): 0.4/2.6 MB | 167/888 kBProgress (2): 0.4/2.6 MB | 171/888 kBProgress (2): 0.4/2.6 MB | 175/888 kBProgress (2): 0.4/2.6 MB | 180/888 kBProgress (2): 0.4/2.6 MB | 184/888 kBProgress (2): 0.4/2.6 MB | 184/888 kBProgress (2): 0.4/2.6 MB | 188/888 kBProgress (2): 0.4/2.6 MB | 188/888 kBProgress (2): 0.4/2.6 MB | 192/888 kBProgress (2): 0.4/2.6 MB | 196/888 kBProgress (2): 0.4/2.6 MB | 196/888 kBProgress (2): 0.4/2.6 MB | 201/888 kBProgress (2): 0.4/2.6 MB | 201/888 kBProgress (2): 0.4/2.6 MB | 205/888 kBProgress (2): 0.4/2.6 MB | 209/888 kBProgress (2): 0.4/2.6 MB | 213/888 kBProgress (2): 0.4/2.6 MB | 218/888 kBProgress (2): 0.4/2.6 MB | 218/888 kBProgress (2): 0.4/2.6 MB | 222/888 kBProgress (2): 0.4/2.6 MB | 222/888 kBProgress (2): 0.4/2.6 MB | 238/888 kBProgress (2): 0.4/2.6 MB | 255/888 kBProgress (2): 0.4/2.6 MB | 255/888 kBProgress (2): 0.4/2.6 MB | 271/888 kBProgress (2): 0.5/2.6 MB | 271/888 kBProgress (2): 0.5/2.6 MB | 271/888 kBProgress (2): 0.5/2.6 MB | 287/888 kBProgress (2): 0.5/2.6 MB | 287/888 kBProgress (2): 0.5/2.6 MB | 304/888 kBProgress (2): 0.5/2.6 MB | 304/888 kBProgress (2): 0.5/2.6 MB | 304/888 kBProgress (2): 0.5/2.6 MB | 304/888 kBProgress (2): 0.5/2.6 MB | 319/888 kBProgress (2): 0.5/2.6 MB | 335/888 kBProgress (2): 0.6/2.6 MB | 335/888 kBProgress (2): 0.6/2.6 MB | 352/888 kBProgress (2): 0.6/2.6 MB | 352/888 kBProgress (2): 0.6/2.6 MB | 368/888 kBProgress (2): 0.6/2.6 MB | 368/888 kBProgress (2): 0.6/2.6 MB | 368/888 kBProgress (2): 0.6/2.6 MB | 385/888 kBProgress (2): 0.6/2.6 MB | 401/888 kBProgress (2): 0.6/2.6 MB | 401/888 kBProgress (2): 0.6/2.6 MB | 401/888 kBProgress (2): 0.6/2.6 MB | 417/888 kBProgress (2): 0.6/2.6 MB | 434/888 kBProgress (2): 0.7/2.6 MB | 434/888 kBProgress (2): 0.7/2.6 MB | 450/888 kBProgress (2): 0.7/2.6 MB | 450/888 kBProgress (2): 0.7/2.6 MB | 466/888 kBProgress (2): 0.7/2.6 MB | 466/888 kBProgress (2): 0.7/2.6 MB | 483/888 kBProgress (2): 0.7/2.6 MB | 483/888 kBProgress (2): 0.7/2.6 MB | 499/888 kBProgress (2): 0.7/2.6 MB | 516/888 kBProgress (2): 0.7/2.6 MB | 516/888 kBProgress (2): 0.7/2.6 MB | 532/888 kBProgress (2): 0.7/2.6 MB | 532/888 kBProgress (2): 0.8/2.6 MB | 532/888 kBProgress (2): 0.8/2.6 MB | 548/888 kBProgress (2): 0.8/2.6 MB | 565/888 kBProgress (2): 0.8/2.6 MB | 565/888 kBProgress (2): 0.8/2.6 MB | 581/888 kBProgress (2): 0.8/2.6 MB | 598/888 kBProgress (2): 0.8/2.6 MB | 598/888 kBProgress (2): 0.8/2.6 MB | 614/888 kBProgress (2): 0.8/2.6 MB | 614/888 kBProgress (2): 0.8/2.6 MB | 630/888 kBProgress (2): 0.8/2.6 MB | 647/888 kBProgress (2): 0.8/2.6 MB | 647/888 kBProgress (2): 0.8/2.6 MB | 663/888 kBProgress (2): 0.8/2.6 MB | 663/888 kBProgress (2): 0.8/2.6 MB | 679/888 kBProgress (2): 0.9/2.6 MB | 679/888 kBProgress (2): 0.9/2.6 MB | 696/888 kBProgress (2): 0.9/2.6 MB | 712/888 kBProgress (2): 0.9/2.6 MB | 712/888 kBProgress (2): 0.9/2.6 MB | 729/888 kBProgress (2): 0.9/2.6 MB | 745/888 kBProgress (2): 0.9/2.6 MB | 761/888 kBProgress (2): 0.9/2.6 MB | 761/888 kBProgress (2): 0.9/2.6 MB | 778/888 kBProgress (2): 0.9/2.6 MB | 794/888 kBProgress (2): 0.9/2.6 MB | 794/888 kBProgress (2): 0.9/2.6 MB | 811/888 kBProgress (2): 0.9/2.6 MB | 811/888 kBProgress (2): 0.9/2.6 MB | 827/888 kBProgress (2): 0.9/2.6 MB | 843/888 kBProgress (2): 0.9/2.6 MB | 843/888 kBProgress (2): 0.9/2.6 MB | 860/888 kBProgress (2): 0.9/2.6 MB | 876/888 kBProgress (2): 0.9/2.6 MB | 888 kB    Progress (2): 1.0/2.6 MB | 888 kBProgress (2): 1.0/2.6 MB | 888 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.17.0/jts-core-1.17.0.jar (888 kB at 3.0 MB/s)
+Progress (1): 1.0/2.6 MBProgress (1): 1.0/2.6 MBProgress (1): 1.0/2.6 MBProgress (1): 1.0/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.1/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.2/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.3/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.4/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.5/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.6/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.7/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.8/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 1.9/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.0/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.1/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.2/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.3/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.4/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.5/2.6 MBProgress (1): 2.6/2.6 MBProgress (1): 2.6/2.6 MBProgress (1): 2.6/2.6 MBProgress (1): 2.6/2.6 MBProgress (1): 2.6 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar (2.6 MB at 5.8 MB/s)
 [INFO] 
 [INFO] --- quarkus:3.8.3:dev (default-cli) @ backend-quarkus ---
 [INFO] Invoking resources:3.3.1:resources (default-resources) @ backend-quarkus
 [INFO] Copying 4 resources from src/main/resources to target/classes
 [INFO] Invoking quarkus:3.8.3:generate-code (default) @ backend-quarkus
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-deployment/3.8.3/quarkus-jdbc-h2-deployment-3.8.3.pom
+Progress (1): quarkus-jdbc-h2-deployment-3.8.3.pom (1.9 kB)                                                           Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-deployment/3.8.3/quarkus-jdbc-h2-deployment-3.8.3.pom (1.9 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-devservices-h2/3.8.3/quarkus-devservices-h2-3.8.3.pom
+Progress (1): quarkus-devservices-h2-3.8.3.pom (1.8 kB)Progress (1): quarkus-devservices-h2-3.8.3.pom (1.8 kB)                                                       Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-devservices-h2/3.8.3/quarkus-devservices-h2-3.8.3.pom (1.8 kB at 20 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-hibernate-orm-panache//quarkus-hibernate-orm-panache-.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-devservices-h2/3.8.3/quarkus-devservices-h2-3.8.3.jar
+Progress (1): quarkus-devservices-h2-3.8.3.jar (0.9/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (2.3/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (3.6/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (5.0/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (6.4/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (7.7/8.1 kB)Progress (1): quarkus-devservices-h2-3.8.3.jar (8.1 kB)                                                           Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-devservices-h2/3.8.3/quarkus-devservices-h2-3.8.3.jar (8.1 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-deployment/3.8.3/quarkus-jdbc-h2-deployment-3.8.3.jar
+Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (0.9/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (2.3/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (3.2/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (4.5/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (5.9/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (7.3/7.5 kB)Progress (1): quarkus-jdbc-h2-deployment-3.8.3.jar (7.5 kB)                                                               Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-jdbc-h2-deployment/3.8.3/quarkus-jdbc-h2-deployment-3.8.3.jar (7.5 kB at 104 kB/s)
 [INFO] Invoking compiler:3.13.0:compile (default-compile) @ backend-quarkus
 [INFO] Nothing to compile - all classes are up to date.
 [INFO] Invoking resources:3.3.1:testResources (default-testResources) @ backend-quarkus
@@ -35,201 +61,110 @@ java.util.NoSuchElementException: No line found
 
 Listening for transport dt_socket at address: 5005
 Press [e] to edit command line args (currently ''), [h] for more options>
-2026-10-03 18:08:05,901 INFO  [io.qua.dep.dev.IsolatedDevModeMain] (main) Attempting to start live reload endpoint to recover from previous Quarkus startup failure
-2026-10-03 18:08:06,430 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (main) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+Tests paused
+Press [e] to edit command line args (currently ''), [r] to resume testing, [h] for more options>
+Press [e] to edit command line args (currently ''), [r] to resume testing, [o] Toggle test output, [h] for more options>
+Hibernate: 
+    drop table if exists Producto cascade 
+Hibernate: 
+    drop sequence if exists Producto_SEQ
+Hibernate: 
+    create sequence Producto_SEQ start with 1 increment by 50
+Hibernate: 
+    create table Producto (
+        precio float(53),
+        id bigint not null,
+        nombre varchar(255),
+        primary key (id)
+    )
+Hibernate: INSERT INTO usuario (id, username, password) VALUES (1, 'admin', '123456')
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2026-10-06 00:09:10,671 WARN  [org.hib.too.sch.int.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO usuario (id, username, password) VALUES (1, 'admin', '123456')" via JDBC [Table "USUARIO" not found;]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO usuario (id, username, password) VALUES (1, 'admin', '123456')" via JDBC [Table "USUARIO" not found;]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:665)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:584)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:184)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:256)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:87)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:72)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:157)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:64)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found; SQL statement:
+INSERT INTO usuario (id, username, password) VALUES (1, 'admin', '123456') [42102-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8064)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8035)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8024)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7990)
+	at org.h2.command.Parser.parseInsert(Parser.java:1540)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:220)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 21 more
 
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.createInitialRuntimeApplication(AugmentActionImpl.java:251)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.createInitialRuntimeApplication(AugmentActionImpl.java:60)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.firstStart(IsolatedDevModeMain.java:112)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.accept(IsolatedDevModeMain.java:433)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.accept(IsolatedDevModeMain.java:55)
-	at io.quarkus.bootstrap.app.CuratedApplication.runInCl(CuratedApplication.java:138)
-	at io.quarkus.bootstrap.app.CuratedApplication.runInAugmentClassLoader(CuratedApplication.java:93)
-	at io.quarkus.deployment.dev.DevModeMain.start(DevModeMain.java:131)
-	at io.quarkus.deployment.dev.DevModeMain.main(DevModeMain.java:62)
-Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-	at io.quarkus.builder.Execution.run(Execution.java:123)
-	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
-	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
-	... 9 more
-Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-2026-10-03 18:09:52,359 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (vert.x-worker-thread-2) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:264)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:60)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartApp(IsolatedDevModeMain.java:190)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartCallback(IsolatedDevModeMain.java:173)
-	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:541)
-	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:441)
-	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:150)
-	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:137)
-	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$0(ContextImpl.java:177)
-	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
-	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:209)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1512)
-	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
-	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-	at io.quarkus.builder.Execution.run(Execution.java:123)
-	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
-	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
-	... 18 more
-Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-2026-10-03 18:09:52,371 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload total time: 0.504s 
-2026-10-03 18:12:29,168 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (vert.x-worker-thread-1) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:334)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:264)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.reloadExistingApplication(AugmentActionImpl.java:60)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartApp(IsolatedDevModeMain.java:190)
-	at io.quarkus.deployment.dev.IsolatedDevModeMain.restartCallback(IsolatedDevModeMain.java:173)
-	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:541)
-	at io.quarkus.deployment.dev.RuntimeUpdatesProcessor.doScan(RuntimeUpdatesProcessor.java:441)
-	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:150)
-	at io.quarkus.vertx.http.runtime.devmode.VertxHttpHotReplacementSetup$5.call(VertxHttpHotReplacementSetup.java:137)
-	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$0(ContextImpl.java:177)
-	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
-	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:209)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
-	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
-	[error]: Build step io.quarkus.agroal.deployment.AgroalProcessor#build threw an exception: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-	at io.quarkus.builder.Execution.run(Execution.java:123)
-	at io.quarkus.builder.BuildExecutionBuilder.execute(BuildExecutionBuilder.java:79)
-	at io.quarkus.deployment.QuarkusAugmentor.run(QuarkusAugmentor.java:160)
-	at io.quarkus.runner.bootstrap.AugmentActionImpl.runAugment(AugmentActionImpl.java:330)
-	... 18 more
-Caused by: io.quarkus.runtime.configuration.ConfigurationException: Unable to find a JDBC driver corresponding to the database kind 'h2' for the default datasource (available: 'postgresql'). Check if it's a typo, otherwise provide a suitable JDBC driver extension, define the driver manually, or disable the JDBC datasource by adding 'quarkus.datasource.jdbc=false' to your configuration if you don't need it.
-	at io.quarkus.agroal.deployment.AgroalProcessor.resolveDriver(AgroalProcessor.java:371)
-	at io.quarkus.agroal.deployment.AgroalProcessor.getAggregatedConfigBuildItems(AgroalProcessor.java:345)
-	at io.quarkus.agroal.deployment.AgroalProcessor.build(AgroalProcessor.java:102)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.deployment.ExtensionLoader$3.execute(ExtensionLoader.java:849)
-	at io.quarkus.builder.BuildContext.run(BuildContext.java:256)
-	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:501)
-
-2026-10-03 18:12:29,176 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 0.207s 
+2026-10-06 00:09:10,787 INFO  [io.quarkus] (Quarkus Main Thread) backend-quarkus 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.8.3) started in 8.414s. Listening on: http://localhost:8080
+2026-10-06 00:09:10,789 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2026-10-06 00:09:10,789 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jdbc-h2, jdbc-postgresql, narayana-jta, resteasy-reactive, resteasy-reactive-jackson, security, smallrye-context-propagation, smallrye-jwt, vertx]
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+Debugger failed to attach: handshake failed - received >GET / HTTP/1.1< - expected >JDWP-Handshake<
+2026-10-06 00:18:31,623 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) File change detected: /workspaces/fullstack/backend-quarkus/src/main/resources/application.properties
+2026-10-06 00:18:31,627 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in application.properties, import.sql.
+2026-10-06 00:18:31,650 INFO  [io.quarkus] (Quarkus Main Thread) backend-quarkus stopped in 0.019s
+Hibernate: 
+    drop table if exists Producto cascade 
+Hibernate: 
+    drop sequence if exists Producto_SEQ
+Hibernate: 
+    create sequence Producto_SEQ start with 1 increment by 50
+Hibernate: 
+    create table Producto (
+        precio float(53),
+        id bigint not null,
+        nombre varchar(255),
+        primary key (id)
+    )
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2026-10-06 00:18:33,500 INFO  [io.quarkus] (Quarkus Main Thread) backend-quarkus 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.8.3) started in 1.847s. Listening on: http://localhost:8080
+2026-10-06 00:18:33,507 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2026-10-06 00:18:33,510 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jdbc-h2, jdbc-postgresql, narayana-jta, resteasy-reactive, resteasy-reactive-jackson, security, smallrye-context-propagation, smallrye-jwt, vertx]
+2026-10-06 00:18:33,511 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 1.893s 

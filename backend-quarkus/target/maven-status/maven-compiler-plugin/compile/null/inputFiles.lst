@@ -1,3 +1,4 @@
 /workspaces/fullstack/backend-quarkus/src/main/java/com/ejemplo/AuthResources.java
 /workspaces/fullstack/backend-quarkus/src/main/java/com/ejemplo/Producto.java
 /workspaces/fullstack/backend-quarkus/src/main/java/com/ejemplo/ProductoResource.java
+/workspaces/fullstack/backend-quarkus/src/main/java/com/ejemplo/dto/ProductoDTO.java

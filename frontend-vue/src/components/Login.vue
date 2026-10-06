@@ -10,6 +10,7 @@
         <label>Contraseña:</label>
         <input v-model="password" type="password" required />
       </div>
+      <p v-if="loginError" role="alert">{{ loginError }}</p>
       <button type="submit">Entrar</button>
     </form>
   </div>
@@ -18,26 +19,32 @@
 <script setup>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import api from '../api/axios';
+import { isAxiosError } from 'axios';
+import { useAuth } from '../composables/useAuth';
 
 const username = ref('');
 const password = ref('');
+const loginError = ref('');
 const router = useRouter();
+const { login } = useAuth();
 
 const handleLogin = async () => {
+  loginError.value = '';
+
   try {
-    const response = await api.post('/auth/login', {
+    await login({
       username: username.value,
       password: password.value
     });
-    
-    // Guardar el token devuelto por Quarkus
-    localStorage.setItem('jwt_token', response.data.token);
-    
-    // Redirigir a la vista protegida de productos
     router.push('/productos');
   } catch (error) {
-    alert('Credenciales incorrectas');
+    if (isAxiosError(error) && error.response?.status === 401) {
+      loginError.value = 'Usuario o contraseña incorrectos.';
+    } else if (isAxiosError(error) && error.response) {
+      loginError.value = `No se pudo iniciar sesión (HTTP ${error.response.status}). Comprueba la configuración del servidor.`;
+    } else {
+      loginError.value = 'No se pudo conectar con el servidor. Comprueba que el backend esté disponible.';
+    }
   }
 };
 </script>

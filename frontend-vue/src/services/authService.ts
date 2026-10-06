@@ -12,7 +12,7 @@ export interface AuthResponse {
 export const login = async (credentials: LoginCredentials): Promise<AuthResponse> => {
     const response = await api.post<AuthResponse>('/auth/login', credentials);
     if (response.data.token) {
-        localStorage.setItem('token', response.data.token);
+        localStorage.setItem('jwt_token', response.data.token);
     }
     return response.data;
 };
